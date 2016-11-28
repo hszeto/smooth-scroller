@@ -3,8 +3,9 @@ ___
 Allows pages to scroll up and down at predefined speed using Javascript and jQuery.
 ___
 #### How it works:
-smooth_scroller.js will listen for click events on the navbar. (<nav> tag required).   
-The href's on each navbar tab points to an id. The script will scroll to the div with the id at predefined speed. Much better UX!
+smooth_scroller.js will listen for click events on the navbar. (nav tag is required).   
+The href's on each navbar tab points to an id. The script will scroll to the div with the id at predefined speed.   
+Much better UX!
 ___
 #### Usage:
 1. Add script tag for jQuery in the html head.
