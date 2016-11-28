@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $SS().start();
+  $SS().start(3000);
 })
