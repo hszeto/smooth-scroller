@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <script src="smooth_scroller.js"></script>
+  <script src="demo.js"></script>
+
+  <style>
+    html,body{  width: 100%:
+                height: 100%; }
+    /* Navbar style */
+    ul {  top: 0;
+          left: 0;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          position: fixed;
+          overflow: hidden;
+          list-style-type: none;
+          background-color: #333; }
+    li  { float: left;            }
+    li a{ color: white;
+          display: block;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;  } /* End Navbar style */
+
+    /* Page holder */
+    .section{ width: 100%;
+              height: 600px;
+              margin-top: 10px;
+              padding-top: 40px;
+              text-align: center;
+              border: 2px solid black; }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content -->
+  <div class="section" id="home"><h2>Home</h2></div>
+  <div class="section" id="news"><h2>News</h2></div>
+  <div class="section" id="about"><h2>About</h2></div>
+  <div class="section" id="contact"><h2>Contact</h2></div>
+</body>
+</html>
